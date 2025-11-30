@@ -8,7 +8,7 @@ Database untuk platform streaming film sederhana yang mencakup manajemen user, f
 
 ### Entitas yang Dibuat
 
-Project ini memiliki **6 entitas** (melebihi minimum 3 entitas yang diminta):
+Project ini memiliki **6 entitas** :
 
 | No | Entitas | Deskripsi |
 |----|---------|-----------|
@@ -434,3 +434,4 @@ LIMIT 5;
 ```bash
 mysql -u root -p < diStreaming.sql
 ```
+

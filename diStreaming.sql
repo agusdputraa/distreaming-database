@@ -313,6 +313,10 @@ LEFT JOIN movies m ON mc.category_id = m.category_id
 GROUP BY mc.category_id, mc.category_name
 HAVING COUNT(m.movie_id) = 0;
 
+-- ============================================
+-- ADDITIONAL JOIN STATEMENTS
+-- ============================================
+
 -- 7.3 Tampilkan riwayat tontonan user dengan detail film
 SELECT 
     u.user_name,
